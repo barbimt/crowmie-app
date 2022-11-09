@@ -1,0 +1,123 @@
+{
+  "project": {
+    "name": "Energías renovables desde 100 euros",
+    "tokens": 1500,
+    "status": "invesment_closed",
+    "invesment": 150000,
+    "energy_production": 1.5,
+    "energy_power":"MWp",
+    "image": "https://assets.nrdc.org/sites/default/files/styles/full_content--retina/public/media-uploads/01_istock_000074694671_large.jpg?itok=u6_BrSuy",
+    "address": "Valencia, España",
+    "location": [39.4609698, -0.3288269],
+    "eth_address": "0x55d398326f99059ff775485246999027b3197955",
+    "eth_address_link": "https://bscscan.com/token/0x55d398326f99059ff775485246999027b3197955",
+    "description": {
+      "en": "<p><span style=\"color: rgb(0,0,0);font-size: medium;font-family: Roboto;\">The <strong>customer is very important</strong>, the customer will be followed by the customer. Everyone should not put a salad. Two easy arrows from my bed. The result of the fermentation process is that the eleifend. Tomorrow the maledura hendrerit of the arc, or the borders of the element in the lake. Mauris dolor turpis, Euismod vel dolor quis, tincidunt fringilla libero. There is no element of hatred or hatred in the environment, but it should be done just right. It is a great earth, and the taste of it will be followed by comfort, ultricia, and pain. Whole members of the internet, the life vehicles of the airline. In fact, the mass of the lake is made to be very ugly. Now the policy, the land does not invest the result, nor the legal course itself, nor the sad hatred of the pure.</span></p><p><span style=\"color: rgb(0,0,0);font-size: medium;font-family: Roboto;\">Aenean vulputate libero ipsum, in auctor eros venenatis at <strong>Everyone is now pure, but I need ultricies</strong>, for I am concerned about ultricies. Now the euismod valley as quis quiver. The result of the development of tincidunt. As there is no laughter, there is no caricature, and there is no real estate. There is no mourning for the ultricies. Integer at lectus eget mauris volutpat laoreet id ac mauris. Now free from the targets, let's start the pure sauce. The pain of the pharetar of the fleet is a lot of time. For there is an urn, a quiver, but neither pure, nor a drink of protein. There is no need for the airline to pursue a trigger. There is no reason for that. He also wanted to be free. Who is the owner of the house? Until the employee's time in the hospital, he should be very soft and do not invest in life. Fusce eros itself, placerat but what not, tincidunt tincidunt ligula.</span></p><p><span style=\"color: rgb(0,0,0);font-size: medium;font-family: Roboto;\">Maecenas, or the turpis of CNN, was a member of, for a long time. To put Aenean hate is made painful by arrows, or places the bed of tincidunt. Now the lake is said to be the price of an employee. The kids take it up a notch. A large number of children, but the greatest advertisement is to decorate a There is no need to tell the story from the Internet. There is no need for arrows or quivers.</span></p>",
+      "es": "<p style=\"text-align:start;\">El cliente es muy importante, el cliente será seguido por el cliente. Todo el mundo no debe poner una ensalada. Dos flechas fáciles desde mi cama. El resultado del proceso de fermentación es que el eleifend. Mañana la maledura hendrerit del arco, o los bordes del elemento en el lago. Mauris dolor turpis, Euismod vel dolor quis, tincidunt fringilla libero. No hay ningún elemento de odio u odio en el ambiente, pero debe hacerse correctamente. Es una gran tierra, y su sabor será seguido por el consuelo, la ultricia y el dolor. Miembros completos de internet, los vehículos de vida de la aerolínea. De hecho, la masa del lago se hace muy fea. Ahora la política, la tierra no invierte el resultado, ni el propio curso legal, ni el odio triste de los puros.</p><p style=\"text-align:start;\">Aenean vulputate libero ipsum, en auctor eros venenatis en Ahora todo el mundo es puro, pero necesito ultricios, porque me preocupan los ultricios. Ahora el valle de euismod como quis quiver. El resultado del desarrollo de tincidunt. Como no hay risa, no hay caricatura y no hay bienes raíces. No hay luto por las ultricias. Entero en lectus eget mauris volutpat laoreet id ac mauris. Ahora libres de las dianas, comencemos la salsa pura. El dolor del pharetar de la flota es mucho tiempo. Porque hay una urna, una aljaba, pero ni pura, ni bebida de proteína. No hay necesidad de que la aerolínea busque un disparador. No hay razón para ello. Él también quería ser libre. ¿Quién es el dueño de la casa? Hasta el tiempo del empleado en el hospital, debe ser muy suave y no invertir en la vida. Fusce eros mismo, placerat pero what not, tincidunt tincidunt ligula.</p>    <p style=\"text-align:start;\">Mecenas, o el turpis de CNN, fue miembro durante mucho tiempo. Poner el odio de Aenean se hace doloroso por las flechas, o coloca el lecho de tincidunt. Ahora se dice que el lago es el precio de un empleado. Los niños lo llevan a un nivel superior. Un gran número de niños, pero el mayor anuncio es decorar un No hay necesidad de contar la historia desde Internet. No hay necesidad de flechas o carcajes.&nbsp;</p>"
+    }
+  },
+  "financials": [
+    {
+      "year": 2022,
+      "gross_income": 63047.45,
+      "explotation_cost": 142312,
+      "ebitda": 1231,
+      "amortization": 1231,
+      "tax": 1231,
+      "net_income": 1231,
+      "annual_yild": 14.8,
+      "accumulated_yield": 0
+    },
+    {
+      "year": 2023,
+      "gross_income": 63047.45,
+      "explotation_cost": 142312,
+      "ebitda": 1231,
+      "amortization": 1231,
+      "tax": 50568,
+      "net_income": 1231,
+      "annual_yild": 10.3,
+      "accumulated_yield": 20
+    },
+    {
+      "year": 2024,
+      "gross_income": 63047.45,
+      "explotation_cost": 142312,
+      "ebitda": 1231,
+      "amortization": 1231,
+      "tax": 1231,
+      "net_income": 1231,
+      "annual_yild": 7.2,
+      "accumulated_yield": 25
+    },
+    {
+      "year": 2025,
+      "gross_income": 63047.45,
+      "explotation_cost": 142312,
+      "ebitda": 1231,
+      "amortization": 1231,
+      "tax": 1231,
+      "net_income": 1231,
+      "annual_yild": 5.9,
+      "accumulated_yield": 32
+    }
+  ],
+  "status_history": [
+    {
+      "date": "2022-07-04T13:33:03.969Z",
+      "status": "preparation"
+    },
+    {
+      "date": "2022-07-20T13:33:03.969Z",
+      "status": "invesment_open"
+    },
+    {
+      "date": "2022-08-25T13:33:03.969Z",
+      "status": "invesment_closed"
+    }
+  ],
+  "graph": [
+    {
+      "name": "05/2022",
+      "amt": 2400
+    },
+    {
+      "name": "06/2022",
+      "amt": 2210
+    },
+    {
+      "name": "07/2022",
+      "amt": 2290
+    },
+    {
+      "name": "08/2022",
+      "amt": 2000
+    },
+    {
+      "name": "09/2022",
+      "amt": 2181
+    },
+    {
+      "name": "10/2022",
+      "amt": 2500
+    },
+    {
+      "name": "11/2022",
+      "amt": 2100
+    }
+  ],
+  "promoter": {
+    "name": "Crowmie Renovable",
+    "logo": "https://crowmie.com/wp-content/uploads/2022/09/logo-negro-crowmie.png",
+    "description": {
+      "en": "<p><span style=\"color: rgb(0,0,0);font-size: medium;font-family: Roboto;\">The <strong>customer is very important</strong>, the customer will be followed by the customer. Everyone should not put a salad. Two easy arrows from my bed. The result of the fermentation process is that the eleifend. Tomorrow the maledura hendrerit of the arc, or the borders of the element in the lake. Mauris dolor turpis, Euismod vel dolor quis, tincidunt fringilla libero. There is no element of hatred or hatred in the environment, but it should be done just right. It is a great earth, and the taste of it will be followed by comfort, ultricia, and pain. Whole members of the internet, the life vehicles of the airline. In fact, the mass of the lake is made to be very ugly. Now the policy, the land does not invest the result, nor the legal course itself, nor the sad hatred of the pure.</span></p><p><span style=\"color: rgb(0,0,0);font-size: medium;font-family: Roboto;\">Aenean vulputate libero ipsum, in auctor eros venenatis at <strong>Everyone is now pure, but I need ultricies</strong>, for I am concerned about ultricies. Now the euismod valley as quis quiver. The result of the development of tincidunt. As there is no laughter, there is no caricature, and there is no real estate. There is no mourning for the ultricies. Integer at lectus eget mauris volutpat laoreet id ac mauris. Now free from the targets, let's start the pure sauce. The pain of the pharetar of the fleet is a lot of time. For there is an urn, a quiver, but neither pure, nor a drink of protein. There is no need for the airline to pursue a trigger. There is no reason for that. He also wanted to be free. Who is the owner of the house? Until the employee's time in the hospital, he should be very soft and do not invest in life. Fusce eros itself, placerat but what not, tincidunt tincidunt ligula.</span></p><p><span style=\"color: rgb(0,0,0);font-size: medium;font-family: Roboto;\">Maecenas, or the turpis of CNN, was a member of, for a long time. To put Aenean hate is made painful by arrows, or places the bed of tincidunt. Now the lake is said to be the price of an employee. The kids take it up a notch. A large number of children, but the greatest advertisement is to decorate a There is no need to tell the story from the Internet. There is no need for arrows or quivers.</span></p>",
+      "es": "<p style=\"text-align:start;\">El cliente es muy importante, el cliente será seguido por el cliente. Todo el mundo no debe poner una ensalada. Dos flechas fáciles desde mi cama. El resultado del proceso de fermentación es que el eleifend. Mañana la maledura hendrerit del arco, o los bordes del elemento en el lago. Mauris dolor turpis, Euismod vel dolor quis, tincidunt fringilla libero. No hay ningún elemento de odio u odio en el ambiente, pero debe hacerse correctamente. Es una gran tierra, y su sabor será seguido por el consuelo, la ultricia y el dolor. Miembros completos de internet, los vehículos de vida de la aerolínea. De hecho, la masa del lago se hace muy fea. Ahora la política, la tierra no invierte el resultado, ni el propio curso legal, ni el odio triste de los puros.</p><p style=\"text-align:start;\">Aenean vulputate libero ipsum, en auctor eros venenatis en Ahora todo el mundo es puro, pero necesito ultricios, porque me preocupan los ultricios. Ahora el valle de euismod como quis quiver. El resultado del desarrollo de tincidunt. Como no hay risa, no hay caricatura y no hay bienes raíces. No hay luto por las ultricias. Entero en lectus eget mauris volutpat laoreet id ac mauris. Ahora libres de las dianas, comencemos la salsa pura. El dolor del pharetar de la flota es mucho tiempo. Porque hay una urna, una aljaba, pero ni pura, ni bebida de proteína. No hay necesidad de que la aerolínea busque un disparador. No hay razón para ello. Él también quería ser libre. ¿Quién es el dueño de la casa? Hasta el tiempo del empleado en el hospital, debe ser muy suave y no invertir en la vida. Fusce eros mismo, placerat pero what not, tincidunt tincidunt ligula.</p>    <p style=\"text-align:start;\">Mecenas, o el turpis de CNN, fue miembro durante mucho tiempo. Poner el odio de Aenean se hace doloroso por las flechas, o coloca el lecho de tincidunt. Ahora se dice que el lago es el precio de un empleado. Los niños lo llevan a un nivel superior. Un gran número de niños, pero el mayor anuncio es decorar un No hay necesidad de contar la historia desde Internet. No hay necesidad de flechas o carcajes.&nbsp;</p>"
+    },
+    "networks": [
+      { "name": "Website", "url": "https://crowmie.com/" },
+      { "name": "Instagram", "url": "https://www.instagram.com/crowmie/" },
+      { "name": "Telegram", "url": "https://t.me/crowmie" },
+      { "name": "Linkedin", "url": "https://www.linkedin.com/company/crowmie/" }
+    ]
+  }
+}

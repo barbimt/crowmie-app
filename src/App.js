@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import { Box, ThemeProvider } from "@mui/material";
+import { Container } from "@mui/system";
+import { theme } from "./assets/theme";
+import DescriptionSection from "./Components/Layout/DescriptionSection";
+import GraphicSection from "./Components/Layout/GraphicSection";
+import Header from "./Components/Layout/Header";
+import MainContent from "./Components/Layout/MainContent";
+import StatusAndMapSection from "./Components/Layout/StatusAndMapSection";
+import { LanguageProvider } from "./Context/LanguageContext";
+
+import Promotion from "./Components/Layout/Promotion";
+import SocialMedia from "./Components/SocialMedia";
+import { DataProvider } from "./Context/DataContext";
+import WaveFooter from "./Components/WaveFooter";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DataProvider>
+      <LanguageProvider>
+        <ThemeProvider theme={theme}>
+          <Header />
+          <Container sx={{alignItems: 'center'}}>
+            <main>
+              <MainContent />
+              <DescriptionSection />
+              <StatusAndMapSection />
+              <GraphicSection />
+            </main>
+          </Container>
+          <div className="wave-container">
+            <Promotion />
+
+            <WaveFooter/>
+            <SocialMedia />
+          </div>
+        </ThemeProvider>
+      </LanguageProvider>
+    </DataProvider>
   );
 }
 
