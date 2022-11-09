@@ -19,7 +19,7 @@ function App() {
       <LanguageProvider>
         <ThemeProvider theme={theme}>
           <Header />
-          <Container sx={{alignItems: 'center'}}>
+          <Container >
             <main>
               <MainContent />
               <DescriptionSection />

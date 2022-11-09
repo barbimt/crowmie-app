@@ -32,9 +32,27 @@ function MainContent() {
     },
   });
 
+  // const LinkBSC = styled(Link)({
+  //   border: "solid",
+  //   borderRadius: "6px",
+  //   borderColor: "secondary.main",
+  //   paddingY: "10px",
+  //   paddingX: "25px",
+
+  //   fontSize: "1rem",
+  //   fontWeight: "700",
+  //   color: "secondary.main",
+  //   transition: theme.transitions.create(["background", "transform"], {
+  //     duration: theme.transitions.duration.standard,
+  //   }),
+  //   "&:hover": {
+  //     transform: "scale(1.1)",
+  //   },
+  // });
+
   return (
     <>
-      <Grid container spacing={2} sx={{alignItems: 'center'}}>
+      <Grid container spacing={2} sx={{ alignItems: "center" }}>
         <Grid item md={5}>
           <Box>
             <Typography variant="h1" color="primary">
@@ -48,7 +66,7 @@ function MainContent() {
               <Link
                 onClick={() => window.open(projectData.eth_address_link)}
                 target="_blank"
-                // href={projectData.eth_address_link}
+                href={projectData.eth_address_link}
                 component="button"
                 variant="body2"
                 underline="hover"
@@ -56,13 +74,25 @@ function MainContent() {
                   border: "solid",
                   borderRadius: "6px",
                   borderColor: "secondary.main",
-                  padding: "10px",
+                  paddingY: "10px",
+                  paddingX: "25px",
+
                   fontSize: "1rem",
                   fontWeight: "700",
                   color: "secondary.main",
+                  transition: theme.transitions.create(
+                    ["background", "transform"],
+                    {
+                      duration: theme.transitions.duration.standard,
+                    }
+                  ),
+                  "&:hover": {
+                    
+                    transform: "scale(1.1)",
+                  },
                 }}
               >
-                LINK BSC{" "}
+                BSC{" "}
               </Link>
             </Box>
           </Box>
@@ -71,7 +101,11 @@ function MainContent() {
           <CardMedia
             component="img"
             image={projectData.image}
-            sx={{ marginTop: { md: "1.5rem", sm: "none" }, borderRadius: 4, boxShadow: "0 3px 5px 2px rgba(184,168,210, .3)" }}
+            sx={{
+              marginTop: { md: "1.5rem", sm: "none" },
+              borderRadius: 4,
+              boxShadow: "0 3px 5px 2px rgba(184,168,210, .3)",
+            }}
           />
         </Grid>
       </Grid>
