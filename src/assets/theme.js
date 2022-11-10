@@ -3,6 +3,9 @@ export const theme = createTheme({
  
     typography: {
       fontFamily: ["Montserrat", "sans-serif"].join(","),
+      p:{
+        textAlign: 'justify'
+      },
       h1: {
         fontSize: '2rem',
         fontWeight: 700,

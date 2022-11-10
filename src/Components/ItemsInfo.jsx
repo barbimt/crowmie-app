@@ -53,7 +53,7 @@ function ItemsInfo() {
         {projectInfo.map((info, index) => {
           return (
             <div key={index}>
-              <CustomListItem >
+              <CustomListItem sx={{color: 'black'}}>
                 {info.icon}
                 {info.text} {info.value}
               </CustomListItem>

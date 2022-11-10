@@ -1,27 +1,11 @@
-import {
-  Box,
-  CardActionArea,
-  CardMedia,
-  IconButton,
-  Stack,
-} from "@mui/material";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import TelegramIcon from "@mui/icons-material/Telegram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import { Box, CardActionArea, CardMedia, Stack } from "@mui/material";
 import React from "react";
 import logoCrowmie from "./../assets/logoCrowmie.png";
 import { useData } from "../hooks/useData";
+import NetworkItem from "./Layout/NetworkItem";
 
 function SocialMedia() {
   const { promoterData } = useData();
-
-  const buildNetworkItem = (icon, url) => {
-    return (
-      <IconButton size="large" color="primary" onClick={() => window.open(url)}>
-        {icon}
-      </IconButton>
-    );
-  };
 
   return (
     <Box sx={{ width: "50%", margin: "auto" }}>
@@ -33,33 +17,16 @@ function SocialMedia() {
       <Stack
         direction="row"
         alignItems="center"
+        alignContent="center"
         spacing={6}
         justifyContent="center"
       >
         {promoterData.networks.map((network) => {
-          switch (network.name) {
-            case "Instagram":
-              return buildNetworkItem(
-                <InstagramIcon sx={{ fontSize: "3rem" }} />,
-                network.url
-              
-              );
-
-            case "Telegram":
-              return buildNetworkItem(
-                <TelegramIcon sx={{ fontSize: "3rem" }} />,
-                network.url
-              );
-
-            case "Linkedin":
-              return buildNetworkItem(
-                <LinkedInIcon sx={{ fontSize: "3rem" }} />,
-                network.url
-              );
-
-            default:
-              return <></>;
-          }
+          return network.name !== "Website" ? (
+            <NetworkItem key={network.name} network={network} />
+          ) : (
+            <></>
+          );
         })}
       </Stack>
     </Box>

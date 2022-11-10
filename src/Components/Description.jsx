@@ -1,13 +1,10 @@
-import { Box, Button, Collapse } from "@mui/material";
+import { Box, Button, Collapse, Typography } from "@mui/material";
 import { Divider } from "@mui/material";
 
 import React, { useState } from "react";
 
-
-function Description({text}) {
+function Description({ text }) {
   const [seeMore, setSeeMore] = useState(false);
-  
-
 
   function createDescription() {
     return { __html: text };
@@ -28,10 +25,13 @@ function Description({text}) {
 
   return (
     <>
-      <Collapse in={seeMore} collapsedSize={73} orientation="vertical">
-        <div
+      <Collapse in={seeMore} collapsedSize={85} orientation="vertical">
+        <Typography
+        className="text"
+          variantMapping={"p"}
           dangerouslySetInnerHTML={createDescription()}
-          style={{ textAlign: "justify", textJustify: "inter-word" }}
+          align="justify"
+          sx={{ textAlign: "justify", textJustify: "inter-word" }}
         />
       </Collapse>
       <Divider sx={{ mb: 2 }}>

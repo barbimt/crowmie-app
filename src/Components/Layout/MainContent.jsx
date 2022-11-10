@@ -17,7 +17,7 @@ function MainContent() {
     background:
       "linear-gradient(90deg, rgba(184,168,210,1) 32%, rgba(151,206,237,1) 100%)",
     border: 0,
-    borderRadius: 3,
+    borderRadius: 6,
     boxShadow: "0 3px 5px 2px rgba(184,168,210, .3)",
     color: "white",
     height: 48,
@@ -32,23 +32,6 @@ function MainContent() {
     },
   });
 
-  // const LinkBSC = styled(Link)({
-  //   border: "solid",
-  //   borderRadius: "6px",
-  //   borderColor: "secondary.main",
-  //   paddingY: "10px",
-  //   paddingX: "25px",
-
-  //   fontSize: "1rem",
-  //   fontWeight: "700",
-  //   color: "secondary.main",
-  //   transition: theme.transitions.create(["background", "transform"], {
-  //     duration: theme.transitions.duration.standard,
-  //   }),
-  //   "&:hover": {
-  //     transform: "scale(1.1)",
-  //   },
-  // });
 
   return (
     <>
@@ -87,7 +70,6 @@ function MainContent() {
                     }
                   ),
                   "&:hover": {
-                    
                     transform: "scale(1.1)",
                   },
                 }}
