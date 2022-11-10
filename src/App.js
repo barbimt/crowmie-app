@@ -1,4 +1,4 @@
-import { Box, ThemeProvider } from "@mui/material";
+import {  ThemeProvider } from "@mui/material";
 import { Container } from "@mui/system";
 import { theme } from "./assets/theme";
 import DescriptionSection from "./Components/Layout/DescriptionSection";
@@ -7,7 +7,6 @@ import Header from "./Components/Layout/Header";
 import MainContent from "./Components/Layout/MainContent";
 import StatusAndMapSection from "./Components/Layout/StatusAndMapSection";
 import { LanguageProvider } from "./Context/LanguageContext";
-
 import Promotion from "./Components/Layout/Promotion";
 import SocialMedia from "./Components/SocialMedia";
 import { DataProvider } from "./Context/DataContext";
@@ -19,7 +18,7 @@ function App() {
       <LanguageProvider>
         <ThemeProvider theme={theme}>
           <Header />
-          <Container >
+          <Container>
             <main>
               <MainContent />
               <DescriptionSection />
@@ -30,7 +29,7 @@ function App() {
           <div className="wave-container">
             <Promotion />
 
-            <WaveFooter/>
+            <WaveFooter />
             <SocialMedia />
           </div>
         </ThemeProvider>

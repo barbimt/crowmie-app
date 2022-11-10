@@ -18,7 +18,7 @@ const drawerWidth = 240;
 const navItems = ["ES", "EN"];
 
 function Header(props) {
-  const { language, setLanguage } = useLanguage();
+  const { language, onLanguageSelected } = useLanguage();
 
   const { window } = props;
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -27,11 +27,6 @@ function Header(props) {
     setMobileOpen(!mobileOpen);
   };
 
-  const onLanguageSelected = (langSelected) => {
-    if (langSelected.toLowerCase() !== language) {
-      setLanguage(language === "es" ? "en" : "es");
-    }
-  };
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
